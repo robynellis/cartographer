@@ -1,0 +1,26 @@
+{
+  "base_dir": "{absolute_path_to_your_working_dir}",
+
+  "paths": {
+    "songs": "songs",
+    "maps": "maps"
+  },
+
+  "download": {
+    "audio_format": "140",
+    "playlist_url": "",
+    "progress_bar": true
+  },
+
+  "beatsage": {
+    "url": "https://beatsage.com",
+    "headless": true,
+    "artist_name": "{artist_name_here}",
+    "difficulty_label": "Expert+",
+    "model_value": "v2-flow"
+  },
+
+  "postprocess": {
+    "author_name": "{your_VR_handle/tag}"
+  }
+}

@@ -1,0 +1,93 @@
+# -------------------------
+# Python
+# -------------------------
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+pytest_cache/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pyre/
+.mypy_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS-specific junk
+.DS_Store
+Thumbs.db
+
+# Env / secrets
+.env
+.env.*
+*.env
+
+# -------------------------
+# Project artifacts
+# -------------------------
+
+# Config that should stay local
+vars.json
+
+# Generated data
+songlist
+songs/
+maps/
+
+# ChroMapper / custom working dirs (optional)
+CustomWIP/
+output/
+
+# -------------------------
+# Playwright
+# -------------------------
+
+# Playwright browser binaries
+playwright/.local-browsers/
+# Older layout / alt cache
+.playwright/
+
+# Test results / reports
+test-results/
+playwright-report/
+blob-report/
